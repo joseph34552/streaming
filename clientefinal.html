@@ -52,6 +52,65 @@
         margin: 50px 0;
         box-shadow: 0px 5px 15px 5px gray;
     }
+    .logo-netflix {
+        width: 200px;
+        position: relative;
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 23px;
+        color: white;
+        position: relative;
+        left: 45px;
+        bottom: 15px;
+    }
+    h2 {
+        font-size: 16px;
+        color: grey;
+        position: relative;
+        left: 18px;
+        bottom: 20px;
+    }
+    h3 {
+        font-size: 16px;
+        color: grey;
+        position: relative;
+        left: 18px;
+        bottom: 25px;
+    }
+    .solicitar {
+        background-color: red;
+        padding: 10px 10px 10px 10px;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        left: 43px;
+        bottom: 15px;
+        border: 1px solid red;
+        text-decoration: none;
+
+    }
+    .solicitar:hover {
+        background-color: darkred;
+    }
+    .flotante {
+        border: 2px solid black;
+        width: fit-content;
+        background-color: black;
+        padding: 15px 15px 15px 15px;
+        border-radius: 25px;
+        box-shadow: 0 4px 6px gray;
+        transition: transform 0.2s ease;
+        box-shadow 0.2s ease;
+        position: relative;
+        left: 20px;
+    }
+    .flotante:hover {
+        transform: scale(1.06);
+        box-shadow: 0 13px 26px red;
+        
+    }
     </style>
 </head>
 <body>
@@ -61,5 +120,12 @@
     </nav>
     <hr class="linea-superior">
     <main>
+        <div class="flotante">
+        <img src="netflix.png" class="logo-netflix">
+        <h1>NETFLIX</h1>
+        <h2>Cuenta completa: 14$</h2>
+        <h3>1 Perfil: 4,50$</h3>
+        <a href="solicitar.html" class="solicitar">SOLICITAR</a>
+        </div>
 
     </main>
